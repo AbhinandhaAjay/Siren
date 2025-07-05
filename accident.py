@@ -9,12 +9,12 @@ from torchvision.ops import box_iou
 import torch
 import json
 # --- Config ---
-SOURCE_VIDEO_PATH = "test2.mp4"
-TARGET_VIDEO_PATH = "vehicles-result.mp4"
+SOURCE_VIDEO_PATH = "vdos/test2.mp4"
+TARGET_VIDEO_PATH = "vdos/vehicles-result.mp4"
 CONFIDENCE_THRESHOLD = 0.5
 IOU_THRESHOLD = 0.5
-VEHICLE_MODEL_PATH = "yolov8n.pt"
-ACCIDENT_MODEL_PATH = "accident_detection_yolov8.pt"
+VEHICLE_MODEL_PATH = "models/yolov8n.pt"
+ACCIDENT_MODEL_PATH = "models/accident_detection_yolov8.pt"
 MODEL_RESOLUTION = 640
 
 def select_polygon_points(image, num_points=4, x_margin=400, y_margin=300):
