@@ -30,11 +30,11 @@ for entry in accident_log:
             tracker_accident_frames[t_id]=[frame,]
 tracker_history = defaultdict(lambda: {})
 images =[]
-SOURCE_VIDEO_PATH = "test2.mp4"
-TARGET_VIDEO_PATH = "vehicles-result.mp4"
+SOURCE_VIDEO_PATH = "vdos/test2.mp4"
+TARGET_VIDEO_PATH = "vdos/vehicles-result-speed.mp4"
 CONFIDENCE_THRESHOLD = 0.5
 IOU_THRESHOLD = 0.5
-MODEL_NAME = "yolov8n.pt"
+MODEL_NAME = "models/yolov8n.pt"
 MODEL_RESOLUTION = 640
 
 TARGET_WIDTH = 15
