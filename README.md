@@ -24,7 +24,7 @@
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer            | Technologies                               |
 |------------------|--------------------------------------------|
@@ -36,7 +36,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
