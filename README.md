@@ -1,6 +1,7 @@
 
 # siren
-<video src="https://github.com/user-attachments/assets/c607d049-e1d8-4608-b6ca-b21a7246035d" controls width="600"></video>
+
+<video src="https://github.com/AbhinandhaAjay/Siren/issues/8#issue-3264058705" controls width="600"></video>
 **siren** is an AI-powered real-time safety monitoring system that detects road accidents using CCTV footage, analyzes vehicle and speed data, summarizes incidents using GenAI, and alerts nearby emergency responders — reducing response time and improving public safety.
 
 ---
